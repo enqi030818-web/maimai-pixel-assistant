@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>麦麦与海鸥 · 搞薯条小剧场</title>
+  <link rel="stylesheet" href="seagull-preview.css">
+  <script defer src="../pet/extras/seagull/animations.js"></script>
+  <script defer src="seagull-preview.js"></script>
+</head>
+<body>
+  <main>
+    <header>
+      <a class="home" href="../README.md">麦麦像素桌宠</a>
+      <span class="tag">今日薯条，请看好</span>
+    </header>
+    <div class="layout">
+      <section class="theater" aria-label="动画舞台">
+        <div class="window-bar"><span class="live-dot"></span><span id="scene-label">麦麦正在等你</span><span class="pixel-size">192 × 208</span></div>
+        <div class="stage" id="stage" aria-busy="true">
+          <canvas id="pet" width="192" height="208" role="img" aria-label="麦麦与海鸥动画，加载中"></canvas>
+          <p id="load-message" role="status">正在请两位小伙伴入场…</p>
+          <div class="floor" aria-hidden="true"></div>
+        </div>
+        <div class="transport">
+          <button id="replay" disabled>再看一次</button>
+          <button id="pause" disabled aria-pressed="false">暂停</button>
+          <label><input id="small-size" type="checkbox"> 实际尺寸</label>
+        </div>
+        <div class="preferences">
+          <label><input id="auto-peek" type="checkbox"> 偶尔自动探头</label>
+          <label><input id="reduced-motion" type="checkbox"> 减少动态效果</label>
+        </div>
+      </section>
+      <section class="stories" aria-labelledby="title">
+        <h1 id="title">你忙你的，<br>我搞点薯条。</h1>
+        <p class="intro">一个总被偷吃，一个总被抓包。<br>偶尔，也会好好分着吃。</p>
+        <div class="story-list" aria-label="选择片段">
+          <button class="story" data-clip="peek" aria-pressed="false" disabled><span class="story-icon" aria-hidden="true">◔</span><span><strong>待机探头</strong><small>一点点挪近，假装只是路过。</small></span><span class="play" aria-hidden="true">▶</span></button>
+          <button class="story" data-clip="celebrate" aria-pressed="false" disabled><span class="story-icon" aria-hidden="true">✧</span><span><strong>完成偷吃</strong><small>你举手庆祝，它叼薯条开溜。</small></span><span class="play" aria-hidden="true">▶</span></button>
+          <button class="story" data-clip="caught" aria-pressed="false" disabled><span class="story-icon" aria-hidden="true">¬</span><span><strong>抓包无奈</strong><small>看你一眼。怎么又是你。</small></span><span class="play" aria-hidden="true">▶</span></button>
+          <button class="story" data-clip="share" aria-pressed="false" disabled><span class="story-icon" aria-hidden="true">♡</span><span><strong>并排分享</strong><small>这根给你，坐下来慢慢吃。</small></span><span class="play" aria-hidden="true">▶</span></button>
+        </div>
+        <button class="complete" id="task-complete" disabled>演示任务完成</button>
+        <p class="caption" id="caption" role="status" aria-live="polite">选择一个片段，看看这对损友。</p>
+      </section>
+    </div>
+    <footer><span>搞薯条小剧场 · 扩展动画预览</span><span>“任务完成”为演示触发。<a href="seagull-design.md">查看设计说明</a></span></footer>
+  </main>
+</body>
+</html>

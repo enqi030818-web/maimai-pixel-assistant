@@ -1,0 +1,366 @@
+{
+  "cell": [
+    192,
+    208
+  ],
+  "extraction": "complete duo groups, fixed left anchor and shared viewport per clip, nearest-neighbor",
+  "clips": [
+    {
+      "id": "peek",
+      "source": "decoded/peek.png",
+      "sourceSize": [
+        2172,
+        724
+      ],
+      "sourceSlots": [
+        [
+          0,
+          574
+        ],
+        [
+          574,
+          1084
+        ],
+        [
+          1084,
+          1609
+        ],
+        [
+          1609,
+          2172
+        ]
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "bbox": [
+            9,
+            55,
+            183,
+            199
+          ],
+          "edgeKeyPixelsRemoved": 0
+        },
+        {
+          "index": 1,
+          "bbox": [
+            9,
+            55,
+            163,
+            199
+          ],
+          "edgeKeyPixelsRemoved": 0
+        },
+        {
+          "index": 2,
+          "bbox": [
+            9,
+            55,
+            155,
+            199
+          ],
+          "edgeKeyPixelsRemoved": 0
+        },
+        {
+          "index": 3,
+          "bbox": [
+            9,
+            55,
+            158,
+            199
+          ],
+          "edgeKeyPixelsRemoved": 0
+        }
+      ]
+    },
+    {
+      "id": "celebrate",
+      "source": "decoded/celebrate.png",
+      "sourceSize": [
+        2172,
+        724
+      ],
+      "sourceSlots": [
+        [
+          0,
+          275
+        ],
+        [
+          275,
+          552
+        ],
+        [
+          552,
+          814
+        ],
+        [
+          814,
+          1072
+        ],
+        [
+          1072,
+          1345
+        ],
+        [
+          1345,
+          1623
+        ],
+        [
+          1623,
+          1885
+        ],
+        [
+          1885,
+          2172
+        ]
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "bbox": [
+            11,
+            36,
+            163,
+            196
+          ],
+          "edgeKeyPixelsRemoved": 0
+        },
+        {
+          "index": 1,
+          "bbox": [
+            11,
+            35,
+            172,
+            196
+          ],
+          "edgeKeyPixelsRemoved": 0
+        },
+        {
+          "index": 2,
+          "bbox": [
+            11,
+            36,
+            172,
+            196
+          ],
+          "edgeKeyPixelsRemoved": 0
+        },
+        {
+          "index": 3,
+          "bbox": [
+            11,
+            35,
+            172,
+            196
+          ],
+          "edgeKeyPixelsRemoved": 0
+        },
+        {
+          "index": 4,
+          "bbox": [
+            11,
+            35,
+            176,
+            196
+          ],
+          "edgeKeyPixelsRemoved": 0
+        },
+        {
+          "index": 5,
+          "bbox": [
+            11,
+            35,
+            181,
+            196
+          ],
+          "edgeKeyPixelsRemoved": 0
+        },
+        {
+          "index": 6,
+          "bbox": [
+            11,
+            35,
+            176,
+            197
+          ],
+          "edgeKeyPixelsRemoved": 0
+        },
+        {
+          "index": 7,
+          "bbox": [
+            11,
+            36,
+            174,
+            197
+          ],
+          "edgeKeyPixelsRemoved": 0
+        }
+      ]
+    },
+    {
+      "id": "caught",
+      "source": "decoded/caught.png",
+      "sourceSize": [
+        2172,
+        724
+      ],
+      "sourceSlots": [
+        [
+          0,
+          533
+        ],
+        [
+          533,
+          1075
+        ],
+        [
+          1075,
+          1608
+        ],
+        [
+          1608,
+          2172
+        ]
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "bbox": [
+            9,
+            37,
+            169,
+            199
+          ],
+          "edgeKeyPixelsRemoved": 0
+        },
+        {
+          "index": 1,
+          "bbox": [
+            9,
+            37,
+            173,
+            199
+          ],
+          "edgeKeyPixelsRemoved": 0
+        },
+        {
+          "index": 2,
+          "bbox": [
+            9,
+            37,
+            173,
+            199
+          ],
+          "edgeKeyPixelsRemoved": 0
+        },
+        {
+          "index": 3,
+          "bbox": [
+            9,
+            37,
+            183,
+            199
+          ],
+          "edgeKeyPixelsRemoved": 0
+        }
+      ]
+    },
+    {
+      "id": "share",
+      "source": "decoded/share.png",
+      "sourceSize": [
+        2172,
+        724
+      ],
+      "sourceSlots": [
+        [
+          0,
+          543
+        ],
+        [
+          543,
+          1086
+        ],
+        [
+          1086,
+          1629
+        ],
+        [
+          1629,
+          2172
+        ]
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "bbox": [
+            9,
+            51,
+            178,
+            199
+          ],
+          "edgeKeyPixelsRemoved": 0
+        },
+        {
+          "index": 1,
+          "bbox": [
+            9,
+            52,
+            183,
+            199
+          ],
+          "edgeKeyPixelsRemoved": 0
+        },
+        {
+          "index": 2,
+          "bbox": [
+            9,
+            52,
+            177,
+            199
+          ],
+          "edgeKeyPixelsRemoved": 0
+        },
+        {
+          "index": 3,
+          "bbox": [
+            9,
+            51,
+            178,
+            199
+          ],
+          "edgeKeyPixelsRemoved": 0
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "atlasSize": [
+    1536,
+    832
+  ],
+  "transparentRgbResidue": 0,
+  "totalFrames": 20,
+  "transparentUnusedCells": 12,
+  "ok": true,
+  "verifiedAt": "2026-10-24T16:09:23.850558+00:00",
+  "visualQA": {
+    "result": "pass",
+    "reviewer": "independent-visual-worker",
+    "note": "四段身份一致，轮廓完整、透明，无邻格碎片、裁切、蓝边或地面阴影；实际尺寸下互动可辨。",
+    "repairClips": []
+  },
+  "storyLimitation": "完成段为格内小跑，海鸥未跑出画面；两帧麦麦抬腿，形成短暂追赶。",
+  "previewInteractionTests": {
+    "runner": "node --test tests/test_seagull_preview.cjs",
+    "passed": 5,
+    "browserLayoutAndClicksVerified": false
+  },
+  "nativeCodexEventsConnected": false,
+  "installation": {
+    "path": "${CODEX_HOME}/pets/maimai/extras/seagull",
+    "filesVerifiedByHash": 4,
+    "nativeNineStatePackageUnchanged": true,
+    "hostAutoTriggersConnected": false
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "kind": "mcp-product-image-snapshot",
+  "storeCode": "1950072",
+  "retrievedAt": "2026-10-25 14:06:39",
+  "source": "https://mcp.mcd.cn",
+  "note": "仅保存商品编码、名称、原图地址和采集时间；不更新历史整单价格，不表示页面具有实时查询能力。",
+  "products": {
+    "1010": {
+      "code": "1010",
+      "name": "吉士汉堡包",
+      "image": "https://menu-img.mcd.cn/pcm/prod/menu/ProductPool/product/MS_1010_600.png",
+      "retrievedAt": "2026-10-25 14:05:53",
+      "sourceTool": "query-meal-detail"
+    },
+    "1450": {
+      "code": "1450",
+      "name": "麦香鸡",
+      "image": "https://menu-img.mcd.cn/pcm/prod/menu/20260520/product/MS_1450_600.png",
+      "retrievedAt": "2026-10-25 14:06:39",
+      "sourceTool": "query-meal-detail"
+    },
+    "3071": {
+      "code": "3071",
+      "name": "无糖可口可乐中杯",
+      "image": "https://menu-img.mcd.cn/pcm/prod/menu/ProductPool/product/MS_3071_600.png",
+      "retrievedAt": "2026-10-25 14:05:55",
+      "sourceTool": "query-meal-detail"
+    },
+    "3111": {
+      "code": "3111",
+      "name": "无糖可口可乐大杯",
+      "image": "https://menu-img.mcd.cn/pcm/prod/menu/ProductPool/product/MS_3111_600.png",
+      "retrievedAt": "2026-10-25 14:05:57",
+      "sourceTool": "query-meal-detail"
+    },
+    "4810": {
+      "code": "4810",
+      "name": "中薯条",
+      "image": "https://menu-img.mcd.cn/pcm/prod/menu/20250423/product/MS_4810_600_1745199801147.png",
+      "retrievedAt": "2026-10-25 14:06:37",
+      "sourceTool": "query-meal-detail"
+    },
+    "9900005449": {
+      "code": "9900005449",
+      "name": "吉士汉堡包中套餐",
+      "image": "https://menu-img.mcd.cn/pcm/prod/menu/20260824/product/MS_9900005449_600.png",
+      "retrievedAt": "2026-10-25 14:06:32",
+      "sourceTool": "query-meal-detail"
+    },
+    "9900005453": {
+      "code": "9900005453",
+      "name": "麦香鸡中套餐",
+      "image": "https://menu-img.mcd.cn/pcm/prod/menu/20260824/product/MS_9900005453_600.png",
+      "retrievedAt": "2026-10-25 14:06:34",
+      "sourceTool": "query-meal-detail"
+    }
+  },
+  "unavailable": [
+    {
+      "code": "9900016073",
+      "name": "龙焰鸡腿堡三件套",
+      "reason": "query-meal-detail 返回未匹配到商品",
+      "retrievedAt": "2026-10-25 14:05:47"
+    },
+    {
+      "code": "521952",
+      "name": "龙焰鸡腿堡",
+      "reason": "query-meal-detail 返回未匹配到商品",
+      "retrievedAt": "2026-10-25 14:05:50"
+    }
+  ],
+  "urlChecks": {
+    "1010": {
+      "status": 200,
+      "contentType": "image/png",
+      "contentLength": "56661"
+    },
+    "1450": {
+      "status": 200,
+      "contentType": "image/png",
+      "contentLength": "61392"
+    },
+    "3071": {
+      "status": 200,
+      "contentType": "image/png",
+      "contentLength": "55490"
+    },
+    "3111": {
+      "status": 200,
+      "contentType": "image/png",
+      "contentLength": "67223"
+    },
+    "4810": {
+      "status": 200,
+      "contentType": "image/png",
+      "contentLength": "53072"
+    },
+    "9900005449": {
+      "status": 200,
+      "contentType": "image/png",
+      "contentLength": "56675"
+    },
+    "9900005453": {
+      "status": 200,
+      "contentType": "image/png",
+      "contentLength": "69230"
+    }
+  }
+}

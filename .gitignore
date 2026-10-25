@@ -1,0 +1,10 @@
+private/
+work/
+outputs/
+dist/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+麦麦像素桌宠_项目交接与聊天记录_2026-10-24.md

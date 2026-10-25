@@ -1,0 +1,279 @@
+{
+  "kind": "historical-live-verification",
+  "source": "https://mcp.mcd.cn",
+  "note": "开发测试门店，不代表用户位置；历史真实报价，不是当前价格。未查询账户优惠券、未下单。",
+  "store": {
+    "code": "1950072",
+    "name": "麦当劳北京崇外新世界餐厅",
+    "mode": "到店自取"
+  },
+  "budgetCents": 3000,
+  "candidates": [
+    {
+      "name": "龙焰鸡腿堡三件套",
+      "request": {
+        "storeCode": "1950072",
+        "orderType": 1,
+        "beType": 1,
+        "items": [
+          {
+            "productCode": "9900016073",
+            "quantity": 1,
+            "roundList": [
+              {
+                "round": "1",
+                "comboItemList": [
+                  {
+                    "code": "521952",
+                    "quantity": 1
+                  }
+                ]
+              },
+              {
+                "round": "2",
+                "comboItemList": [
+                  {
+                    "code": "4810",
+                    "quantity": 1
+                  }
+                ]
+              },
+              {
+                "round": "3",
+                "comboItemList": [
+                  {
+                    "code": "3071",
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "selections": [
+        {
+          "round": "1",
+          "code": "521952",
+          "name": "龙焰鸡腿堡",
+          "quantity": 1
+        },
+        {
+          "round": "2",
+          "code": "4810",
+          "name": "中薯条",
+          "quantity": 1
+        },
+        {
+          "round": "3",
+          "code": "3071",
+          "name": "无糖可口可乐中杯",
+          "quantity": 1
+        }
+      ],
+      "priceCents": 2690,
+      "quotedAt": "2026-10-24 22:38:55",
+      "discountCents": 0
+    },
+    {
+      "name": "吉士汉堡包中套餐",
+      "request": {
+        "storeCode": "1950072",
+        "orderType": 1,
+        "beType": 1,
+        "items": [
+          {
+            "productCode": "9900005449",
+            "quantity": 1,
+            "roundList": [
+              {
+                "round": "1",
+                "comboItemList": [
+                  {
+                    "code": "1010",
+                    "quantity": 1
+                  }
+                ]
+              },
+              {
+                "round": "2",
+                "comboItemList": [
+                  {
+                    "code": "4810",
+                    "quantity": 1
+                  }
+                ]
+              },
+              {
+                "round": "3",
+                "comboItemList": [
+                  {
+                    "code": "3071",
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "selections": [
+        {
+          "round": "1",
+          "code": "1010",
+          "name": "吉士汉堡包",
+          "quantity": 1
+        },
+        {
+          "round": "2",
+          "code": "4810",
+          "name": "中薯条",
+          "quantity": 1
+        },
+        {
+          "round": "3",
+          "code": "3071",
+          "name": "无糖可口可乐中杯",
+          "quantity": 1
+        }
+      ],
+      "priceCents": 2650,
+      "quotedAt": "2026-10-24 22:38:55",
+      "discountCents": 0
+    },
+    {
+      "name": "麦香鸡中套餐",
+      "request": {
+        "storeCode": "1950072",
+        "orderType": 1,
+        "beType": 1,
+        "items": [
+          {
+            "productCode": "9900005453",
+            "quantity": 1,
+            "roundList": [
+              {
+                "round": "1",
+                "comboItemList": [
+                  {
+                    "code": "1450",
+                    "quantity": 1
+                  }
+                ]
+              },
+              {
+                "round": "2",
+                "comboItemList": [
+                  {
+                    "code": "4810",
+                    "quantity": 1
+                  }
+                ]
+              },
+              {
+                "round": "3",
+                "comboItemList": [
+                  {
+                    "code": "3071",
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "selections": [
+        {
+          "round": "1",
+          "code": "1450",
+          "name": "麦香鸡",
+          "quantity": 1
+        },
+        {
+          "round": "2",
+          "code": "4810",
+          "name": "中薯条",
+          "quantity": 1
+        },
+        {
+          "round": "3",
+          "code": "3071",
+          "name": "无糖可口可乐中杯",
+          "quantity": 1
+        }
+      ],
+      "priceCents": 2800,
+      "quotedAt": "2026-10-24 22:38:56",
+      "discountCents": 0
+    }
+  ],
+  "revision": {
+    "name": "吉士汉堡包中套餐",
+    "change": "中杯无糖可口可乐换大杯",
+    "request": {
+      "storeCode": "1950072",
+      "orderType": 1,
+      "beType": 1,
+      "items": [
+        {
+          "productCode": "9900005449",
+          "quantity": 1,
+          "roundList": [
+            {
+              "round": "1",
+              "comboItemList": [
+                {
+                  "code": "1010",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "round": "2",
+              "comboItemList": [
+                {
+                  "code": "4810",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "round": "3",
+              "comboItemList": [
+                {
+                  "code": "3111",
+                  "quantity": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "selections": [
+      {
+        "round": "1",
+        "code": "1010",
+        "name": "吉士汉堡包",
+        "quantity": 1
+      },
+      {
+        "round": "2",
+        "code": "4810",
+        "name": "中薯条",
+        "quantity": 1
+      },
+      {
+        "round": "3",
+        "code": "3111",
+        "name": "无糖可口可乐大杯",
+        "quantity": 1
+      }
+    ],
+    "previousPriceCents": 2650,
+    "priceCents": 2850,
+    "quotedAt": "2026-10-24 22:39:51"
+  },
+  "writesPerformed": []
+}

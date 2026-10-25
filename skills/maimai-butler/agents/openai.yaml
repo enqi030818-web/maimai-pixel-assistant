@@ -1,0 +1,4 @@
+interface:
+  display_name: "麦麦 · 像素餐单助手"
+  short_description: "查真实套餐，整单核价，修改后重新比较，输出确认单。"
+  default_prompt: "请用 $maimai-butler 帮我比较预算内的麦当劳餐单，先确认门店，使用真实报价，最后输出确认单。"

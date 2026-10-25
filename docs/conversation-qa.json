@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-25",
+  "logicTestsPassed": 25,
+  "logicTestsFailed": 0,
+  "productImageCount": 7,
+  "productCodes": [
+    "1010",
+    "1450",
+    "3071",
+    "3111",
+    "4810",
+    "9900005449",
+    "9900005453"
+  ],
+  "missingHistoricalProductCodes": [
+    "9900016073",
+    "521952"
+  ],
+  "imageUrlHeadChecks": {
+    "1010": {
+      "status": 200,
+      "contentType": "image/png",
+      "contentLength": "56661"
+    },
+    "1450": {
+      "status": 200,
+      "contentType": "image/png",
+      "contentLength": "61392"
+    },
+    "3071": {
+      "status": 200,
+      "contentType": "image/png",
+      "contentLength": "55490"
+    },
+    "3111": {
+      "status": 200,
+      "contentType": "image/png",
+      "contentLength": "67223"
+    },
+    "4810": {
+      "status": 200,
+      "contentType": "image/png",
+      "contentLength": "53072"
+    },
+    "9900005449": {
+      "status": 200,
+      "contentType": "image/png",
+      "contentLength": "56675"
+    },
+    "9900005453": {
+      "status": 200,
+      "contentType": "image/png",
+      "contentLength": "69230"
+    }
+  },
+  "sourceTool": "query-meal-detail",
+  "imageRetrievedAt": "2026-10-25 14:06:39",
+  "historicalPricesChanged": false,
+  "frontendRealAIConnected": false,
+  "frontendRealMCPConnected": false,
+  "scriptSyntax": "pass",
+  "localResources": "pass",
+  "localHttpChecks": {
+    "port": 8766,
+    "status": 200
+  },
+  "browserLayoutVerified": false,
+  "browserImageLoadingVerified": false,
+  "browserMotionPlaybackVerified": false,
+  "browserControlBlocker": "Native app-server launch failed (os error 3); browser inventory exposes only empty MCP Apps.",
+  "preview": "http://127.0.0.1:8766/docs/mobile-ordering-preview.html?v=dialogue-images"
+}

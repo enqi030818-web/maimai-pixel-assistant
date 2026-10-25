@@ -1,0 +1,71 @@
+window.MAIMAI_SEAGULL = {
+  "version": 1,
+  "cellWidth": 192,
+  "cellHeight": 208,
+  "columns": 8,
+  "rows": 4,
+  "atlas": "atlas.webp",
+  "nativeCodexEventsConnected": false,
+  "clips": [
+    {
+      "id": "peek",
+      "title": "待机探头",
+      "row": 0,
+      "frames": 4,
+      "durations": [
+        650,
+        650,
+        700,
+        1000
+      ],
+      "poster": 3,
+      "loop": false
+    },
+    {
+      "id": "celebrate",
+      "title": "完成偷吃",
+      "row": 1,
+      "frames": 8,
+      "durations": [
+        450,
+        350,
+        300,
+        300,
+        250,
+        250,
+        400,
+        700
+      ],
+      "poster": 6,
+      "loop": false
+    },
+    {
+      "id": "caught",
+      "title": "抓包无奈",
+      "row": 2,
+      "frames": 4,
+      "durations": [
+        600,
+        650,
+        1000,
+        1000
+      ],
+      "poster": 2,
+      "loop": false
+    },
+    {
+      "id": "share",
+      "title": "并排分享",
+      "row": 3,
+      "frames": 4,
+      "durations": [
+        650,
+        800,
+        850,
+        1000
+      ],
+      "poster": 3,
+      "loop": false
+    }
+  ]
+};

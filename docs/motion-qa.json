@@ -1,0 +1,118 @@
+{
+  "version": 1,
+  "date": "2026-10-25",
+  "status": "pass-with-stated-check-boundaries",
+  "newClips": 8,
+  "newFrames": 32,
+  "totalCatalogClips": 21,
+  "totalProjectFrames": 109,
+  "atlas": {
+    "path": "pet/extras/companion/atlas.webp",
+    "width": 768,
+    "height": 1664,
+    "cell": [
+      192,
+      208
+    ],
+    "columns": 4,
+    "rows": 8,
+    "sha256": "68eaa3fc4ad45a8279d403fa37dc00eeaf3907dc063950e756b157021f323995"
+  },
+  "build": {
+    "errors": [],
+    "transparentRGBResidue": 0,
+    "blueKeyResidue": 0,
+    "nonEmptyFrames": 32,
+    "gifFramesPerClip": 4,
+    "gifDisposal": 2,
+    "durationsMatchManifest": true,
+    "alphaValues": [
+      0,
+      255
+    ]
+  },
+  "visualQA": {
+    "independentReviewer": "companion_final_qa",
+    "result": "pass",
+    "method": "Final contact sheet observed frame by frame; actual GIF frames decoded and timing checked. Real-time playback was not observed.",
+    "checked": [
+      "same identity, palette, proportions and pixel style",
+      "complete sprites, stable torso and shoes",
+      "prop hand-side consistency",
+      "seated head scale",
+      "no blue halo or detached noise",
+      "visible pose changes",
+      "no new clipping after stabilization"
+    ],
+    "repair": "Integer horizontal translations stabilized talk/search/fry/sleep/petting; no repainting or per-frame scaling."
+  },
+  "runtimeQA": {
+    "logicTestsPassed": 19,
+    "logicTestsFailed": 0,
+    "all21GifAndPosterResourcesExist": true,
+    "newMediaHttpStatus": 200,
+    "scriptSyntax": "pass",
+    "browserClicksVerified": false,
+    "realTimePlaybackVerified": false,
+    "mobileTouchVerified": false
+  },
+  "nativeCodexPackageUnchanged": true,
+  "nativeExtraStatesConnected": false,
+  "liveAIConnected": false,
+  "liveMCPConnectedToPreview": false,
+  "reference": "https://github.com/songconmaisaix31-design/mcpet",
+  "upstreamCodeOrMediaCopied": false,
+  "generation": {
+    "model": "gpt-image-2",
+    "quality": "medium",
+    "inputIdentity": "pet/concept.png",
+    "promptRecord": "docs/motion-generation-prompts.md",
+    "sources": [
+      {
+        "id": "listen",
+        "source": "outputs\\imagegen\\companion-listen-v2.png",
+        "sha256": "fdbcf5f2bf44e7cce1eedaf9cc2fd092f0d02a5bc8875ce0ca0cd265d5b68fab"
+      },
+      {
+        "id": "talk",
+        "source": "outputs\\imagegen\\companion-talk-v2.png",
+        "sha256": "d9f9d3439ba030896c956f818066663489c76c0778a6d9a7031be07170ea6f4f"
+      },
+      {
+        "id": "search",
+        "source": "outputs\\imagegen\\companion-search-v1.png",
+        "sha256": "274bfcd931d3c208638b871483a2ceb21de1343649a6de597b3f5d43021d6c43"
+      },
+      {
+        "id": "calculate",
+        "source": "outputs\\imagegen\\companion-calculate-v1.png",
+        "sha256": "da8f391751d3528fd6d4677dd3749c94de77b750fd1f220d63d299e033a8a56c"
+      },
+      {
+        "id": "fry",
+        "source": "outputs\\imagegen\\companion-fry-v1.png",
+        "sha256": "93a1a36e2434dc5dcacdeac025e75deb2924f0c5fa54c1afe5178323156ffd4f"
+      },
+      {
+        "id": "eat",
+        "source": "outputs\\imagegen\\companion-eat-v1.png",
+        "sha256": "805d469067b486e62c103470c0880c29f93029aeedb15d32056f8046aea1490f"
+      },
+      {
+        "id": "sleep",
+        "source": "outputs\\imagegen\\companion-sleep-v1.png",
+        "sha256": "a3954b8e93cee92819d7315a66a5cb244c8ac5a946432707d3a7752aef24f6f0"
+      },
+      {
+        "id": "petting",
+        "source": "outputs\\imagegen\\companion-petting-v1.png",
+        "sha256": "8f7ef7571ab52757b1841b2829b905abcd88d7da602dc95ec4e62cb067d981a5"
+      }
+    ]
+  },
+  "limitations": [
+    "Browser control did not expose a usable page in this session.",
+    "The chat preview remains a finite script using historical price examples.",
+    "Extra animations are wired to our own web demo, not the official mini-program or native Codex extra states."
+  ]
+}

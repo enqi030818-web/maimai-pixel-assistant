@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>麦麦 · 悬浮对话伙伴</title>
+  <link rel="stylesheet" href="mobile-ordering-preview.css">
+  <script defer src="mobile-ordering-data.js"></script>
+  <script defer src="mobile-ordering-model.js"></script>
+  <script defer src="maimai-conversation.js"></script>
+  <script defer src="maimai-dialogue.js"></script>
+  <script defer src="../pet/extras/companion/animations.js"></script>
+  <script defer src="maimai-motion.js"></script>
+  <script defer src="mobile-ordering-preview.js"></script>
+</head>
+<body>
+  <div class="preview-banner">非官方交互演示 · 对话未接 AI / 实时查询 · 已使用接口商品原图</div>
+  <main class="order-page">
+    <header class="page-top"><div class="wordmark">麦麦食堂<small>点餐场景示意</small></div><span class="pickup">到店自取</span></header>
+    <div class="store-line"><span class="location-dot" aria-hidden="true"></span><div id="page-store">取餐门店待选择<small>可以直接告诉麦麦想在哪儿取餐</small></div></div>
+    <section class="scene-note"><span class="pixel-sun" aria-hidden="true"></span><h1>今天，吃点开心的。</h1><p>麦麦在右下角。<br>点点它，就能开始聊。</p><div class="counter-pattern" aria-hidden="true"></div></section>
+    <section class="background-menu" aria-label="背景点餐页面示意">
+      <div class="menu-heading"><h2>餐品一览</h2><span>历史餐单 · 商品原图</span></div>
+      <div class="background-products" id="background-products"></div>
+      <p class="background-note">这里是未来点餐页面的背景示意。<br>配餐、优惠和查门店，都可以直接和麦麦聊。</p>
+    </section>
+    <footer class="design-footer"><a href="conversation-design.md">对话与动作说明</a><a href="motion-preview.html">看看麦麦的动作</a><label><input id="motion" type="checkbox"> 减少动态</label><span>聊天仅保留在当前页面，刷新后清空。</span></footer>
+  </main>
+  <div class="page-cart" aria-live="polite"><span class="bag-icon" aria-hidden="true">▣</span><div>我的餐单<small id="page-cart-note">还没选，慢慢聊</small></div><strong id="page-cart-total">尚未下单</strong></div>
+  <div class="maimai-widget" id="maimai-widget">
+    <section class="conversation" id="conversation" role="region" aria-labelledby="conversation-title" hidden>
+      <header class="conversation-head"><div><h2 id="conversation-title">麦麦</h2><p id="presence">我在，想吃什么？</p></div><button id="collapse-chat" class="icon-button" aria-label="收起与麦麦的对话">−</button></header>
+      <div class="conversation-context" id="context">还没选门店 · 到店自取</div>
+      <div class="demo-note">演示对话 · 历史报价 · 商品原图采集于 10 月 25 日</div>
+      <div class="messages" id="messages" role="log" aria-label="与麦麦的聊天记录" aria-live="polite" aria-relevant="additions"></div>
+      <div class="thinking" id="thinking" role="status" hidden><span class="thinking-dots" aria-hidden="true"><i></i><i></i><i></i></span><span id="thinking-text">麦麦正在想一想</span><button id="stop-reply">停止</button></div>
+      <div class="conversation-starters" id="conversation-starters"><button data-say="30元以内，要汉堡和无糖饮料">30 元吃什么</button><button data-say="最近有什么优惠？">有什么优惠</button><button data-say="帮我找北京站附近的门店">找家门店</button></div>
+      <form id="chat-form" class="composer"><label class="sr-only" for="chat-input">发消息给麦麦</label><textarea id="chat-input" rows="1" maxlength="500" placeholder="麦麦，今天想吃……" autocomplete="off"></textarea><button id="send-message" type="submit">发送</button></form>
+      <div class="conversation-tail" aria-hidden="true"></div>
+    </section>
+    <div class="pet-row"><div id="pet-hint" class="pet-hint">点我聊天 · 长按摸摸<span id="unread" hidden>有新回复</span></div><button id="maimai-pet" class="maimai-pet" aria-label="点击麦麦，展开对话" title="点击聊天，长按摸摸；也可以发消息说‘摸摸你’" aria-expanded="false" aria-controls="conversation"><img id="pet-art" src="media/seagull/peek.gif" width="144" height="156" alt="麦麦抱着薯条，海鸥偷偷靠近"><span class="pet-name">麦麦</span></button></div>
+  </div>
+  <div class="toast" id="toast" role="status" hidden></div>
+</body>
+</html>
