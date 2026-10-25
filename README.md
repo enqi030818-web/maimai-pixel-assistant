@@ -10,6 +10,8 @@
 
 ## 快速体验网页原型
 
+**[在线体验麦麦](https://enqi030818-web.github.io/maimai-pixel-assistant/)** · [21 组动作画廊](https://enqi030818-web.github.io/maimai-pixel-assistant/docs/motion-preview.html) · [官方报名 Issue](https://github.com/M-China/mcd-developer-innovation-challenge/issues/1369)
+
 克隆或下载本仓库后，在项目根目录运行（Python 3.11+）：
 
 ```powershell
